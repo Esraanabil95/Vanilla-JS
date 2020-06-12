@@ -1,0 +1,117 @@
+body {
+  background-color:black;
+}
+
+/* Things Related to the header only */
+
+h1 {
+  color: #f8f2f2;
+  text-align: center;
+  margin-block-start: 0.70em;
+  margin-block-end: 0.30em;
+  font-size: 50px;
+  font-family: 'Playfair Display', serif;
+}
+
+header {
+-webkit-flex: 1;
+-ms-flex: 1;
+flex: 1;
+padding: 20px;
+
+}
+
+.headerimg {
+
+  width: 100%;
+  height: 100px;
+  background: url('https://cache.desktopnexus.com/thumbseg/2280/2280808-bigthumbnail.jpg');
+}
+
+.pages {
+  margin: 60px;
+  color:silver;
+  
+}
+h3 {
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+}
+  
+
+/* Things related to section */
+section {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding: 40px;
+}
+ 
+.personname {
+  position: absolute;
+  left: 30px;
+  top: 200px;
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  color: white;
+}
+
+.audio {
+  position: absolute;
+  right: 30px;
+  top: 200px;
+}
+
+.clock {
+  color: silver;
+  font-size: 56px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: 'Solway', serif;
+}
+
+/* Things related to part */
+
+part {	
+  -webkit-flex: 6;
+   -ms-flex: 6;
+   flex: 6;
+   background-color: #e6e6e6 ;
+   display: flex;
+   padding: 5px; }
+ 
+  colors{ width:400px;
+   margin: auto; }
+ 
+ 
+   .btncolor {
+     font-family: 'Playfair Display', serif;
+    cursor: pointer;
+    background-color: #555555;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    width: 300px;
+   }
+
+
+/* The End */
+
+footer {
+	position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+
+  background-color: #8c8c8c;
+  color: white;
+}
+   
